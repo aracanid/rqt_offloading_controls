@@ -1,0 +1,2 @@
+# rqt_offloading_controls
+rqt plugin for controlling offloadable_face_recognition
