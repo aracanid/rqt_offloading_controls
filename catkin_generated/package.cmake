@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rqt_offloading_controls")
+set(rqt_offloading_controls_MAINTAINER "Justin McManus <jmcmanus1992@gmail.com>")
+set(rqt_offloading_controls_DEPRECATED "")
+set(rqt_offloading_controls_VERSION "0.0.0")
+set(rqt_offloading_controls_BUILD_DEPENDS "rospy" "rqt_gui" "rqt_gui_py")
+set(rqt_offloading_controls_RUN_DEPENDS "python-rospkg" "rospy" "rqt_gui" "rqt_gui_py")
+set(rqt_offloading_controls_BUILDTOOL_DEPENDS "catkin")

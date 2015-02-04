@@ -1,0 +1,20 @@
+<library path="src">
+  <class name="rqt_offloading_controls" type="offloading_controls.Offloading_Controls" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      GUI interface to manually control the offloading of offloadable_face_recognition nodes
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>Offloading Controls</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Offloading Controls</statustip>
+    </qtgui>
+  </class>
+</library>

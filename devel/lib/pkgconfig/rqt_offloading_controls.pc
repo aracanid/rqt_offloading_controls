@@ -1,0 +1,8 @@
+prefix=/home/justin/ros_catkin_ws/src/rqt_offloading_controls/devel
+
+Name: rqt_offloading_controls
+Description: Description of rqt_offloading_controls
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/justin/ros_catkin_ws/src/rqt_offloading_controls/devel/lib 
+Requires: 

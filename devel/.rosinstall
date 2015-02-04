@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/justin/ros_catkin_ws/src/rqt_offloading_controls/devel/setup.sh
