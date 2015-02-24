@@ -29,7 +29,7 @@ class Offloading_Controls_Widget(QWidget):
 
         self.isAutomatic = True
         
-        self.manual_offloading_commands = rospy.Publisher("manual_offloading_commands", OffloadCommand, queue_size=1)
+        self.manual_offloading_commands = rospy.Publisher("manual_offload_commands", OffloadCommand, queue_size=1)
         #TODO: Add a subscriber to the actual WIFI signal
         #TODO: Add a publisher for the manual WIFI signal
 
