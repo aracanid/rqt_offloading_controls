@@ -36,7 +36,8 @@ class Offloading_Controls_Widget(QWidget):
         self.manual_offloading_btn.clicked.connect(self.set_manual_offloading)
 
         self.automatic_offloading_btn.clicked.connect(self.set_automatic_offloading)
-        self.automatic_offloading_btn.setChecked(True)
+        self.automatic_offloading_btn.setChecked(False)
+        self.manual_offloading_btn.setChecked(True)
         self.offloading_percentage_slider.setEnabled(False)
         self.offloading_percentage_slider.setMaximum(100)
         self.offloading_percentage_slider.setMinimum(0)
